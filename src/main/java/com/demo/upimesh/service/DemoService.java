@@ -34,10 +34,10 @@ public class DemoService {
     @PostConstruct
     public void seedAccounts() {
         if (accounts.count() == 0) {
-            accounts.save(new Account("alice@demo", "Alice",   new BigDecimal("5000.00")));
-            accounts.save(new Account("bob@demo",   "Bob",     new BigDecimal("1000.00")));
-            accounts.save(new Account("carol@demo", "Carol",   new BigDecimal("2500.00")));
-            accounts.save(new Account("dave@demo",  "Dave",    new BigDecimal("500.00")));
+            accounts.save(new Account("asif@demo", "Asif",   new BigDecimal("5000.00")));
+            accounts.save(new Account("rahul@demo",   "Rahul",     new BigDecimal("1000.00")));
+            accounts.save(new Account("anushka@demo", "Anushka",   new BigDecimal("2500.00")));
+            accounts.save(new Account("harsh@demo",  "Harsh",    new BigDecimal("500.00")));
             log.info("Seeded 4 demo accounts");
         }
     }
